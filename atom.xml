@@ -2,32 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://step-c.github.io</id>
     <title>StepC</title>
-    <updated>2021-03-26T10:02:57.358Z</updated>
+    <updated>2021-03-26T10:05:16.810Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://step-c.github.io"/>
     <link rel="self" href="https://step-c.github.io/atom.xml"/>
-    <subtitle>生活要像海里的鱼</subtitle>
+    <subtitle>&lt;h2&gt;生活要像海里的鱼&lt;/h2&gt;</subtitle>
     <logo>https://step-c.github.io/images/avatar.png</logo>
     <icon>https://step-c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, StepC</rights>
     <entry>
         <title type="html"><![CDATA[生活要像海里的鱼]]></title>
-        <id>https://step-c.github.io/post/sheng-huo-yao-xiang-hai-li-de-yu/</id>
-        <link href="https://step-c.github.io/post/sheng-huo-yao-xiang-hai-li-de-yu/">
+        <id>https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/</id>
+        <link href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/">
         </link>
         <updated>2020-01-01T09:57:30.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>https://step-c.github.io/post/about/</id>
-        <link href="https://step-c.github.io/post/about/">
+        <id>https://step-c.github.io/about/</id>
+        <link href="https://step-c.github.io/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://step-c.github.io/post/hello-gridea/</id>
-        <link href="https://step-c.github.io/post/hello-gridea/">
+        <id>https://step-c.github.io/hello-gridea/</id>
+        <link href="https://step-c.github.io/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
