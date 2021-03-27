@@ -1,339 +1,242 @@
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>StepC</title>
-<link rel="shortcut icon" href="https://step-c.github.io/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://step-c.github.io/media/css/tailwind.css">
+<script src='/assets/media/Valine.min.js'></script>
+<link rel="shortcut icon" href="https://step-c.github.io/favicon.ico?v=1616836289572">
+<link href="https://cdn.remixicon.com/releases/v2.1.0/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://step-c.github.io/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="StepC - Atom Feed" href="https://step-c.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
-    
 
-  <meta name="description" content="Drifting in and out" />
-</head>
-<body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
-
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
-    </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    <meta name="description" content="Drifting in and out
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=16649839&auto=1&height=66"></iframe>" />
+   <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://step-c.github.io">
+  <img class="avatar" src="https://step-c.github.io/images/avatar.png?v=1616836289572" alt="">
+  </a>
+  <h1 class="site-title">
+    StepC
+  </h1>
+  <p class="site-description">
+    Drifting in and out
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=16649839&auto=1&height=66"></iframe>
+  </p>
+  <div class="menu-container">
     
-      <a href="https://step-c.github.io" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="https://step-c.github.io/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
-    
-      <a href="https://step-c.github.io/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
-    
-      <a href="https://step-c.github.io/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
-    
-    <a href="https://step-c.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
-</div>
-
-    <div class="max-w-4xl w-full mx-auto ">
       
-        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
-  <div class="flex-1 order-2 md:order-1 md:pr-16">
-    <div class="text-4xl font-bold text-center md:text-left">
-      StepC
-    </div>
-    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
-      Drifting in and out
-    </div>
-    
-      <div class="mt-8 text-center md:text-left">
-        <a
-          href="https://step-c.github.io/" 
-          arget="_blank"
-          class="text-sm bg-yellow-50 dark:bg-indigo-500 dark:text-gray-700 font-semibold px-4 py-2 inline-block yellow-btn transition-fast rounded"
-        >Hi</a>
-      </div>
-    
-    
-      <div class="mt-8 flex items-center">
-        
-          <div class="text-gray-500 mr-2">
-            👉
-          </div>
-        
-        
-          
-            
-              <div class="relative mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 transition-fast dark:hover:bg-gray-600 wechat">
-                <i class="ri-wechat-line"></i>
-                <img src="\media\images\custom-wechat.jpg" alt="" class="absolute left-0 w-32" style="max-width: initial; top: 100%;" >
-              </div>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-mail-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-github-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-twitter-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-weibo-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-zhihu-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-facebook-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-telegram-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-dribbble-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-instagram-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-behance-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://step-c.github.io/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-qq-line"></i>
-              </a>
-            
-          
-        
-      </div>
-    
-  </div>
-  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
-    <img class="rounded-full object-cover" src="https://step-c.github.io/images/avatar.png?v=1616835701382" alt="StepC" width="100%" height="100%">
-  </div>
-</header>
+        <a href="https://step-c.github.io" class="menu">
+          首页
+        </a>
       
-
-      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
     
-      <i class="ri-star-line text-orange-200 absolute text-2xl left-0 ml-1 rotate-90"></i>
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          生活要像海里的鱼
+      
+        <a href="https://step-c.github.io/archives" class="menu">
+          归档
         </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2020-01-01</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        你好😀
-
-      </div>
-      <a href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/" class="btn">
-        阅读更多
-      </a>
-    </div>
+      
     
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://step-c.github.io/post-images/sheng-huo-yao-xiang-hai-li-de-yu.jpg" alt="生活要像海里的鱼">
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://step-c.github.io/lorem-ipsum-dolor-sit-amet/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Lorem ipsum dolor sit amet
+      
+        <a href="https://step-c.github.io/tags" class="menu">
+          标签
         </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2021-03-27</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        Lorem ipsum dolor sit amet,
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u...
-      </div>
-      <a href="https://step-c.github.io/lorem-ipsum-dolor-sit-amet/" class="btn">
-        阅读更多
-      </a>
-    </div>
+      
     
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://step-c.github.io/post-images/lorem-ipsum-dolor-sit-amet.jpg" alt="Lorem ipsum dolor sit amet">
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://step-c.github.io/lorem-ipsum/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Lorem ipsum
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2021-03-27</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliq...
-      </div>
-      <a href="https://step-c.github.io/lorem-ipsum/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://step-c.github.io/post-images/lorem-ipsum.jpg" alt="Lorem ipsum">
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://step-c.github.io/lorem/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Lorem
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2021-03-27</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq...
-      </div>
-      <a href="https://step-c.github.io/lorem/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://step-c.github.io/post-images/lorem.jpg" alt="Lorem">
-    
-  </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://step-c.github.io/about/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+      
+        <a href="https://step-c.github.io/about" class="menu">
           关于
         </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2019-01-25</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        
-欢迎来到我的小站呀，很高兴遇见你！🤝
-
-🏠 关于本站
-👨‍💻 博主是谁
-⛹  兴趣爱好
-📬 联系我呀
-...
-      </div>
-      <a href="https://step-c.github.io/about/" class="btn">
-        阅读更多
-      </a>
-    </div>
+      
     
   </div>
-
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
+  <div class="social-container">
     
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://step-c.github.io/hello-gridea/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Hello Gridea
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+    
+        <div class="post-container">
+  
+    <article class="post">
+      <a href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/">
+        <h2 class="post-title">生活要像海里的鱼</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2020-01-01
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+      </div>
+      
+        <a href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/" class="post-feature-image" style="background-image: url('https://step-c.github.io/post-images/sheng-huo-yao-xiang-hai-li-de-yu.jpg')">
         </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">2018-12-12</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://step-c.github.io/lorem-ipsum-dolor-sit-amet/">
+        <h2 class="post-title">Lorem ipsum dolor sit amet</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2021-03-27
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+      </div>
+      
+        <a href="https://step-c.github.io/lorem-ipsum-dolor-sit-amet/" class="post-feature-image" style="background-image: url('https://step-c.github.io/post-images/lorem-ipsum-dolor-sit-amet.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://step-c.github.io/lorem-ipsum/">
+        <h2 class="post-title">Lorem ipsum</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2021-03-27
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+          <a href="https://step-c.github.io/6dhUVxd7u/" class="post-tag">
+            # About
+          </a>
+        
+      </div>
+      
+        <a href="https://step-c.github.io/lorem-ipsum/" class="post-feature-image" style="background-image: url('https://step-c.github.io/post-images/lorem-ipsum.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://step-c.github.io/lorem/">
+        <h2 class="post-title">Lorem</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2021-03-27
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+          <a href="https://step-c.github.io/6dhUVxd7u/" class="post-tag">
+            # About
+          </a>
+        
+      </div>
+      
+        <a href="https://step-c.github.io/lorem/" class="post-feature-image" style="background-image: url('https://step-c.github.io/post-images/lorem.jpg')">
+        </a>
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://step-c.github.io/about/">
+        <h2 class="post-title">关于</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2019-01-25
+        </span>
+        <span>
+          1 min read
+        </span>
+        
+          <a href="https://step-c.github.io/6dhUVxd7u/" class="post-tag">
+            # About
+          </a>
+        
+      </div>
+      
+      <div class="post-abstract">
+        
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://step-c.github.io/hello-gridea/">
+        <h2 class="post-title">Hello Gridea</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2018-12-12
+        </span>
+        <span>
+          2 min read
+        </span>
+        
+          <a href="https://step-c.github.io/qSnv8e9CV/" class="post-tag">
+            # Gridea
+          </a>
+        
+      </div>
+      
+        <a href="https://step-c.github.io/hello-gridea/" class="post-feature-image" style="background-image: url('https://step-c.github.io/post-images/hello-gridea.png')">
+        </a>
+      
+      <div class="post-abstract">
         <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
 
       </div>
-      <a href="https://step-c.github.io/hello-gridea/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://step-c.github.io/post-images/hello-gridea.png" alt="Hello Gridea">
-    
-  </div>
+    </article>
   
-      </div>
+</div>
 
-      
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-</footer>
+    
+        <div class="pagination-container">
+  
+  
+</div>
 
-    </div>
+    
+          <div class="site-footer">
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+    <a class="rss" href="https://step-c.github.io/atom.xml" target="_blank">
+      <i class="ri-rss-line"></i> RSS
+    </a>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://step-c.github.io/media/scripts/main.js"></script>
-</body>
-
+      </div>
+    </div>
+  </body>
 </html>
