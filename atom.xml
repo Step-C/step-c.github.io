@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://step-c.github.io</id>
     <title>StepC</title>
-    <updated>2021-03-27T08:34:41.501Z</updated>
+    <updated>2021-03-27T09:03:04.239Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://step-c.github.io"/>
     <link rel="self" href="https://step-c.github.io/atom.xml"/>
-    <subtitle>&lt;a herf=&quot;http://music.163.com/song?id=16649839&amp;userid=1531229626&quot;&gt;Drifting in and out&lt;/a&gt;</subtitle>
+    <subtitle>Drifting in and out</subtitle>
     <logo>https://step-c.github.io/images/avatar.png</logo>
     <icon>https://step-c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, StepC</rights>
@@ -16,6 +16,11 @@
         <link href="https://step-c.github.io/lorem-ipsum-dolor-sit-amet/">
         </link>
         <updated>2021-03-27T08:29:28.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="lorem-ipsum-dolor-sit-amet">Lorem ipsum dolor sit amet,</h3>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+</ul>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem ipsum]]></title>
@@ -23,6 +28,13 @@
         <link href="https://step-c.github.io/lorem-ipsum/">
         </link>
         <updated>2021-03-27T08:19:52.000Z</updated>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+Ut enim ad minim veniam,<br>
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem]]></title>
@@ -30,6 +42,9 @@
         <link href="https://step-c.github.io/lorem/">
         </link>
         <updated>2021-03-27T08:18:30.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+<h1 id="lorem-ipsum-dolor-sit-amet">Lorem ipsum dolor sit amet</h1>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[生活要像海里的鱼]]></title>
@@ -37,6 +52,8 @@
         <link href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/">
         </link>
         <updated>2020-01-01T09:57:30.000Z</updated>
+        <content type="html"><![CDATA[<p>你好😀</p>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
@@ -44,6 +61,14 @@
         <link href="https://step-c.github.io/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹  兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
@@ -56,6 +81,25 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="http://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
