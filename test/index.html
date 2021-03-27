@@ -14,15 +14,15 @@
 
     
 
-  <meta name="description" content="
-  
-  您的浏览器不支持 audio 标签。
+  <meta name="description" content="test
+
+test
 
 " />
   <meta property="og:title" content="test - StepC">
-  <meta property="og:description" content="
-  
-  您的浏览器不支持 audio 标签。
+  <meta property="og:description" content="test
+
+test
 
 " />
   <meta property="og:type" content="articles">
@@ -31,9 +31,9 @@
   <meta property="og:image:height" content="630">
   <meta property="og:image:width" content="1200">
   <meta name="twitter:title" content="test - StepC">
-  <meta name="twitter:description" content="
-  
-  您的浏览器不支持 audio 标签。
+  <meta name="twitter:description" content="test
+
+test
 
 ">
   <meta name="twitter:card" content="summary_large_image">
@@ -61,14 +61,14 @@
         </h1>
         
         <div class="mb-8 flex flex-wrap">
-          <div class="text-gray-400 text-sm mr-4">2021-03-26 · 1 min read</div>
+          <div class="text-gray-400 text-sm mr-4">2021-03-27 · 1 min read</div>
           
         </div>
         <div class="markdown mb-8" v-pre>
-          <audio controls="controls">
-  <source src="/i/BGM.mp3" type="audio/mpeg">
-  您的浏览器不支持 audio 标签。
-</audio>
+          <h1 id="test">test</h1>
+<ul>
+<li>test</li>
+</ul>
 
         </div>
         <!-- Share to Twitter, Weibo, Telegram -->
@@ -95,7 +95,8 @@
       
 
       <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  <script src="//instant.page/3.0.0" type="module" defer integrity="sha384OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=16649839&auto=0&height=66"></iframe>
+<script src="//instant.page/3.0.0" type="module" defer integrity="sha384OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 </footer>
     </div>
 
@@ -111,7 +112,10 @@
         </div>
       </div>
       <div class="post-toc-container">
-        
+        <ul class="markdownIt-TOC">
+<li><a href="#test">test</a></li>
+</ul>
+
       </div>
     </div>
 
@@ -278,14 +282,14 @@
     el: '#vlaine-comment',
     appId: '8gniBQJ3mMYx6nPR6SwSrPtq-gzGzoHsz',
     appKey: 'rgvmtMDojnmbNMi25caziSMe',
-    pageSize: 10,
-    notify: false,
-    avatar: 'mp',
-    verify: true,
+    pageSize: '< %= site.customConfig.valinePageSize % >',
+    notify: '< %= site.customConfig.valineNotify % >',
+    avatar: 'robohash',
+    verify: '< %= site.customConfig.valineVerify % >',
     placeholder: '来都来了，不妨评论一下',
-    visitor: true,
-    highlight: true,
-    recordIP: false,
+    visitor: '< %= site.customConfig.valineVisitor % >',
+    highlight: '< %= site.customConfig.valineHighlight % >',
+    recordIP: '< %= site.customConfig.valineRecordIp % >',
   })
 </script>
   
