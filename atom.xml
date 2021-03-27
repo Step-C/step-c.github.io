@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://step-c.github.io</id>
-    <title>捕捉黑夜的眼睛</title>
-    <updated>2021-03-27T13:32:23.899Z</updated>
+    <title>StepC</title>
+    <updated>2021-03-27T13:43:05.475Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://step-c.github.io"/>
     <link rel="self" href="https://step-c.github.io/atom.xml"/>
     <subtitle>Drifting in and out</subtitle>
     <logo>https://step-c.github.io/images/avatar.png</logo>
     <icon>https://step-c.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 捕捉黑夜的眼睛</rights>
+    <rights>All rights reserved 2021, StepC</rights>
     <entry>
         <title type="html"><![CDATA[Lorem ipsum dolor sit amet]]></title>
         <id>https://step-c.github.io/lorem-ipsum-dolor-sit-amet/</id>
