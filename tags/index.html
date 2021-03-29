@@ -1,77 +1,115 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
 <title>StepC</title>
 <link rel="shortcut icon" href="https://step-c.github.io/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://step-c.github.io/media/css/tailwind.css">
-<link rel="stylesheet" href="https://step-c.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="StepC - Atom Feed" href="https://step-c.github.io/atom.xml">
+<link href="https://step-c.github.io/styles/main.css" rel="stylesheet">
+<link href="//at.alicdn.com/t/font_1678829_7cn41ho9lyt.css" rel="stylesheet">
+<link rel="alternate" type="application/rss+xml" title="StepC » Feed" href="https://step-c.github.io/atom.xml"></head>
 
-    
-
-  <meta name="description" content="Drifting in and out" />
-</head>
 <body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+<div class="main animated">
+    <div class="header animated fadeInDown">
+    <div class="site_title_container">
+        <div class="site_title">
+            <a href="https://step-c.github.io">StepC</a>
+        </div>
     </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="https://step-c.github.io" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="https://step-c.github.io/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        归档
-      </a>
-    
-      <a href="https://step-c.github.io/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        标签
-      </a>
-    
-      <a href="https://step-c.github.io/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        关于
-      </a>
-    
-    <a href="https://step-c.github.io/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
+    <div class="my_socials">
+        
+            
+                <a href="http://step-c.github.io/" target="_blank"><i class="iconfont icon-github"></i></a>
+            
+        
+            
+                <a href="http://step-c.github.io/" target="_blank"><i class="iconfont icon-twitter"></i></a>
+            
+        
+            
+                <a href="http://step-c.github.io/" target="_blank"><i class="iconfont icon-weibo"></i></a>
+            
+        
+            
+                <a href="http://step-c.github.io/" target="_blank"><i class="iconfont icon-instagram"></i></a>
+            
+        
+            
+                <a href="http://step-c.github.io/" target="_blank"><i class="iconfont icon-telegram"></i></a>
+            
+        
+        <a href="https://step-c.github.io/atom.xml" target="_blank"><i class="iconfont icon-rss"></i></a>
+    </div>
 </div>
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      <div class="py-8 shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+
+    <div class="header_menu">
         
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://step-c.github.io/6dhUVxd7u/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              About（3）
-            </a>
-          </div>
+            
+                <a href="https://step-c.github.io" class="menu">首页</a>
+            
         
-          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
-            <a href="https://step-c.github.io/qSnv8e9CV/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-              <i class="ri-hashtag"></i>
-              Gridea（1）
-            </a>
-          </div>
+            
+                <a href="https://step-c.github.io/archives" class="menu">归档</a>
+            
         
-      </div>
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=16649839&auto=0&height=66"></iframe>
-<script src="//instant.page/3.0.0" type="module" defer integrity="sha384OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-</footer>
+            
+                <a href="https://step-c.github.io/tags" class="menu">标签</a>
+            
+        
+            
+                <a href="https://step-c.github.io/about" class="menu">关于</a>
+            
+        
+        <div class="gridea-search-div">
+            <form id="gridea-search-form" action="https://step-c.github.io/search/">
+                <input class="gridea-search-input" autocomplete="off" spellcheck="false" name="q"/>
+            </form>
+        </div>
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://step-c.github.io/media/scripts/main.js"></script>
+
+    <div class="autopagerize_page_element">
+        <div class="content">
+            <div class="list_with_title animated fadeInDown">
+                <div class="tags-container">
+                    
+                        <a class="tag" href="https://step-c.github.io/6dhUVxd7u/">
+                            About</a>
+                    
+                        <a class="tag" href="https://step-c.github.io/qSnv8e9CV/">
+                            Gridea</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;height:80px;"></div>
+    </div>
+</div>
+<div class="footer">
+    
+    <script src="//instant.page/3.0.0" type="module" defer integrity="sha384OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1">
+    </script>
+    <div class="footer_slogan">
+        Drifting in and out
+    </div>
+    <div class="powered_by">
+        <a href="https://github.com/tangkaichuan/gridea-theme-one" target="_blank">Theme One,</a>
+        <a href="https://gridea.dev/" target="_blank">Powered by Gridea&#65281;</a>
+    </div>
+    <div style="margin-top: 1.8rem; margin-bottom: 1.8rem;">
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+            src="//music.163.com/outchain/player?type=2&id=16649839&auto=1&height=66">
+        </iframe>
+    </div>
+    <div id="back_to_top" class="back_to_top">
+        <span>△</span>
+    </div>
+    
+</div>
+
+<script src="https://step-c.github.io/media/scripts/util.js"></script>
 </body>
+
 </html>
