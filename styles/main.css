@@ -36,9 +36,13 @@ figure {
   position: absolute;
 }
 .copyright {
-  font-size: smaller;
+  display: flex;
+  margin-top: 0.8rem;
   font-weight: bold;
-  color: #666;
+  color: #a1a1a1db;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  font-size: 1px;
 }
 .gridea-search-input {
   height: 30px;
@@ -3818,6 +3822,7 @@ a:visited {
 }
 .post .post_content {
   word-break: break-word;
+  text-align: justify;
 }
 .post .post_content p {
   line-height: 2em;
