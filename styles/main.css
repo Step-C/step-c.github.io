@@ -3779,13 +3779,11 @@ a:visited {
   color: #000;
 }
 .avatar {
-  float: right;
-  padding-right: 20px;
-}
-.avatar img {
-  width: 84px;
-  height: 84px;
-  border-radius: 100%;
+  margin-left: 10px;
+  position: relative;
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 .post {
   background-color: #FFF;
