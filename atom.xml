@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://step-c.github.io</id>
     <title>StepC</title>
-    <updated>2021-03-30T13:10:42.633Z</updated>
+    <updated>2021-03-30T13:10:52.922Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://step-c.github.io"/>
+    <link rel="self" href="https://step-c.github.io/atom.xml"/>
     <subtitle>Drifting in and out</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://step-c.github.io/images/avatar.png</logo>
+    <icon>https://step-c.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, StepC</rights>
     <entry>
         <title type="html"><![CDATA[Audio]]></title>
-        <id>http://localhost:4000/audio/</id>
-        <link href="http://localhost:4000/audio/">
+        <id>https://step-c.github.io/audio/</id>
+        <link href="https://step-c.github.io/audio/">
         </link>
         <updated>2021-03-30T07:31:27.000Z</updated>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -23,8 +23,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem ipsum dolor sit amet]]></title>
-        <id>http://localhost:4000/lorem-ipsum-dolor-sit-amet/</id>
-        <link href="http://localhost:4000/lorem-ipsum-dolor-sit-amet/">
+        <id>https://step-c.github.io/lorem-ipsum-dolor-sit-amet/</id>
+        <link href="https://step-c.github.io/lorem-ipsum-dolor-sit-amet/">
         </link>
         <updated>2021-03-27T08:29:28.000Z</updated>
         <content type="html"><![CDATA[<h3 id="lorem-ipsum-dolor-sit-amet">Lorem ipsum dolor sit amet,</h3>
@@ -35,8 +35,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem ipsum]]></title>
-        <id>http://localhost:4000/lorem-ipsum/</id>
-        <link href="http://localhost:4000/lorem-ipsum/">
+        <id>https://step-c.github.io/lorem-ipsum/</id>
+        <link href="https://step-c.github.io/lorem-ipsum/">
         </link>
         <updated>2021-03-27T08:19:52.000Z</updated>
         <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
@@ -49,8 +49,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     </entry>
     <entry>
         <title type="html"><![CDATA[Lorem]]></title>
-        <id>http://localhost:4000/lorem/</id>
-        <link href="http://localhost:4000/lorem/">
+        <id>https://step-c.github.io/lorem/</id>
+        <link href="https://step-c.github.io/lorem/">
         </link>
         <updated>2021-03-27T08:18:30.000Z</updated>
         <content type="html"><![CDATA[<h2 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-nisi-ut-aliquip-ex-ea-commodo-consequat-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-dolore-eu-fugiat-nulla-pariatur-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-qui-officia-deserunt-mollit-anim-id-est-laborum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
@@ -59,8 +59,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     </entry>
     <entry>
         <title type="html"><![CDATA[生活要像海里的鱼]]></title>
-        <id>http://localhost:4000/sheng-huo-yao-xiang-hai-li-de-yu/</id>
-        <link href="http://localhost:4000/sheng-huo-yao-xiang-hai-li-de-yu/">
+        <id>https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/</id>
+        <link href="https://step-c.github.io/sheng-huo-yao-xiang-hai-li-de-yu/">
         </link>
         <updated>2020-01-01T09:57:30.000Z</updated>
         <content type="html"><![CDATA[<p>你好😀</p>
@@ -68,8 +68,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
-        <id>http://localhost:4000/about/</id>
-        <link href="http://localhost:4000/about/">
+        <id>https://step-c.github.io/about/</id>
+        <link href="https://step-c.github.io/about/">
         </link>
         <updated>2019-01-25T11:09:48.000Z</updated>
         <content type="html"><![CDATA[<blockquote>
@@ -83,8 +83,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://localhost:4000/hello-gridea/</id>
-        <link href="http://localhost:4000/hello-gridea/">
+        <id>https://step-c.github.io/hello-gridea/</id>
+        <link href="https://step-c.github.io/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
