@@ -3689,6 +3689,7 @@ h6 {
 .content {
   width: 720px;
   margin: 0 auto;
+  padding-top: 20px;
 }
 .list_with_title .container {
   width: 720px;
@@ -3788,10 +3789,14 @@ a:visited {
 }
 .post {
   background-color: #FFF;
-  margin-top: 50px;
+  margin-top: 0px;
+}
+.post_content.markdown {
+  margin-top: -10px;
+  font-size: 0.86rem;
 }
 .post .post_title {
-  padding-bottom: 16px;
+  padding-bottom: 5px;
 }
 .post .post_title h2 {
   font-size: 1.4rem;
@@ -3803,7 +3808,7 @@ a:visited {
 .post .post_title a {
   text-decoration: none;
   color: #1F1F1F;
-  font-size: 1.4rem;
+  font-size: 1.28rem;
   line-height: 28px;
 }
 .post .post_title span {
@@ -3822,10 +3827,10 @@ a:visited {
 }
 .post .post_content {
   word-break: break-word;
-  text-align: justify;
 }
 .post .post_content p {
   line-height: 2em;
+  font-size: 0.82rem;
 }
 .post .post_content a {
   text-decoration: none;
@@ -3837,7 +3842,7 @@ a:visited {
   color: #424242;
 }
 .post .post_footer {
-  padding: 20px 0 40px 0;
+  padding: 25px 0 15px;
   border-bottom: 1px solid #F3F3F3;
 }
 .post .post_footer .meta {
@@ -3873,7 +3878,7 @@ a:visited {
   max-width: 780px;
   text-align: center;
   font-size: 12px;
-  padding: 60px 0px;
+  padding: 25px 0px 10px;
   margin: 0 auto;
 }
 .footer a {
@@ -4254,7 +4259,7 @@ em {
     padding-bottom: 400px;
   }
   .post {
-    margin-top: 40px;
+    margin-top: 0px;
   }
   .post_footer {
     padding-bottom: 30px;
